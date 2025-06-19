@@ -1,0 +1,21 @@
+# Umum
+.DS_Store
+Thumbs.db
+*.log
+
+# Env file global (kalau ada)
+.env
+
+# Node & Python build cache
+node_modules/
+__pycache__/
+# cell_images/
+*.pyc
+*.pyo
+*.pyd
+backend/venv/
+backend/diagnose/model/malaria/cell_images
+
+# VSCode settings (opsional)
+.vscode/
+backend/services/firebase/firebase_config.json
